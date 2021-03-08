@@ -31,7 +31,7 @@ namespace AddressBook
             catch (KeyNotFoundException)
             {
                 Console.WriteLine("----------------------------");
-                Console.WriteLine("No contact with this email found.");
+                Console.WriteLine($"No contact with {emailId} found.");
                 return null;
             }
         }
